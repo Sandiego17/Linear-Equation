@@ -1,3 +1,14 @@
+const resultButton = document.getElementById('result');
+const clearDataDom = document.getElementById('clearData');
+
+resultButton.addEventListener("click", () => {
+    result();
+})
+
+clearDataDom.addEventListener("click", () => {
+    clearData();
+})
+
 const result = () => {
     var validity = true;
     a1 = document.getElementById('a1').value;
@@ -52,11 +63,11 @@ const result = () => {
         valueOfY = "NO";
     }else{
         typeOfEquation = "Exactly one ordered pair solution";
-        valueOfX = ((c2*b1) - (c1*b2)) / ((a1*b2) - (a2*b1))
-        valueOfY = ((c2*a1) - (c1*a2)) / ((a2*b1) - (a1*b2))
+        valueOfX = ((c1*b2) - (b1*c2)) / ((a1*b2) - (a2*b1))
+        valueOfY = ((a1*c2) - (a2*c1)) / ((a1*b2) - (a2*b1))
 
-        valueOfX = Number.isInteger(valueOfX) ? valueOfX : valueOfX.toPrecision(4);
-        valueOfY = Number.isInteger(valueOfY) ? valueOfY : valueOfY.toPrecision(4);
+        valueOfX = Number.isInteger(valueOfX) ? valueOfX : valueOfX.toPrecision(3);
+        valueOfY = Number.isInteger(valueOfY) ? valueOfY : valueOfY.toPrecision(3);
     }
 
     if(validity == true){
