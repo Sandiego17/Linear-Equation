@@ -6,8 +6,6 @@
     text-align: center;
     border-radius: 8px;
     border: none;
-    /* text-decoration: none; */
-    /* outline: none; */
 }
 
 label{
@@ -38,15 +36,12 @@ body {
 }
 
 .first-equation, second-equation {
-    /* font-size: 25px; */
-    /* font-weight: 500; */
     padding: 16px;
 }
 
 input {
     background: rgb(218, 218, 218);
     box-shadow: -8px -4px 8px 0px rgba(255, 255, 255, 0.5) inset, 12px 12px 8px 0px rgba(0, 0, 0, 0.25) inset;
-    /* font-size: 20px; */
     height: 25px;
     width: 64px;
 }
@@ -82,7 +77,6 @@ input {
 
 .output-container > div {
     font-size: 20px;
-    /* margin: 5px; */
 }
 
 .x-result, .y-result {
@@ -97,14 +91,6 @@ input {
     margin: 0 32px;
 }
 
-.text {
-    /* background: linear-gradient(-45deg, #78ffd6, #a8ff78); */
-    /* box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.5), 12px 12px 8px 0px rgba(0, 0, 0, 0.25); */
-    /* font-size: 20px; */
-    /* font-weight: 700; */
-    /* padding: 16px; */
-}
-
 .solution-type {
     background: linear-gradient(-45deg, #78ffd6, #a8ff78);
     box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.5) inset, 12px 12px 8px 0px rgba(0, 0, 0, 0.25) inset;
@@ -112,7 +98,6 @@ input {
     font-weight: 500;
     height: 35px;
     margin: 30px 7% 20px 7%;
-    /* padding: 16px; */
     width: 86%;
 }
 
